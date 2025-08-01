@@ -33,14 +33,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation & Setup
 
-1.  **Clone the repository:**
-
-    ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
-
-2.  **Set up Firebase:**
+1.  **Set up Firebase:**
 
     - Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
     - Add an Android app and an iOS app to your Firebase project. Follow the on-screen instructions.
@@ -48,7 +41,7 @@ To get a local copy up and running, follow these simple steps.
     - Download the `GoogleService-Info.plist` file for iOS and place it in the `ios/Runner/` directory.
     - In the Firebase Console, enable **Authentication** (Email/Password and Google providers) and **Firestore Database**.
 
-3.  **Set up Environment Variables:**
+2.  **Set up Environment Variables:**
 
     - Create a file named `.env` in the root of your project.
     - Add your Firebase project keys to this file. You can find these in your downloaded configuration files or in the Firebase project settings.
@@ -67,7 +60,7 @@ To get a local copy up and running, follow these simple steps.
       IOS_BUNDLE_ID="your_ios_bundle_id"
       ```
 
-4.  **Run the App:**
+3.  **Run the App:**
     ```sh
     flutter pub get
     flutter run
